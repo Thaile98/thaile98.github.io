@@ -1,0 +1,137 @@
+.container {
+  width: 400px;
+  margin: auto;
+  border-radius: 10px;
+  background-color: #fce17e;
+  box-shadow: 5px 10px 8px #888888;
+
+}
+/* Chiều cao, chiều dài của phần tử sẽ bao gồm cả padding mà margin của nó */
+* {
+  box-sizing: border-box;
+}
+
+/* xóa bỏ padding và margin của thẻ ul*/
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+/* Định dạng các thẻ li */
+ul li {
+  cursor: pointer;
+  position: relative;
+  padding: 20px 8px 12px 40px;
+  background: #eee;
+  font-size: 18px;
+  transition: 0.2s;
+  list-style: none;
+  height: 70px;
+  overflow: hidden;
+}
+
+/* thiết lập các phần tử li lẻ một màu nền khác */
+ul li:nth-child(odd) {
+  background: #f9f9f9;
+}
+
+/* Đổi màu nền thẻ li khi nó được hover */
+ul li:hover {
+  background: #ddd;
+}
+ul li .text{
+  float: left;
+}
+
+/* khi thẻ li được chọn thì thêm màu nền và gạch ngang chữ */
+ul li.checked {
+  background: #888;
+  color: #fff;
+  text-decoration: line-through;
+}
+
+
+/* Thêm vào trước thẻ li một dấu tích khi thẻ được chọn */
+ul li.checked::before {
+  content: '';
+  position: absolute;
+  border-color: #fff;
+  border-style: solid;
+  border-width: 0 2px 2px 0;
+  top: 10px;
+  left: 16px;
+  transform: rotate(45deg);
+  height: 15px;
+  width: 7px;
+}
+
+/* Định dạng button xóa công việc */
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 35px 10px;
+}
+
+.close:hover {
+  background-color: #f44336;
+  color: white;
+}
+
+/* phần header của danh sách */
+.header {
+  background-color: #ccc;
+  padding: 10px 10px 20px 10px;
+  color: white;
+  text-align: center;
+}
+
+/* xóa float của các phần trước header */
+.header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* định dạng phần thẻ input */
+input {
+  border: none;
+  width: 75%;
+  padding: 10px;
+  float: left;
+  font-size: 16px;
+}
+
+/* định dạng button "thêm" */
+.addBtn {
+  padding: 10px;
+  width: 25%;
+  background: #d9d9d9;
+  color: #555;
+  float: left;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.addBtn:hover {
+  background-color: #bbb;
+}
+.active{
+  color: red;
+}
+button.att{
+  color: red !important;
+}
+
+.choice{
+  background-color: #ccc;
+  text-align: center;
+  padding: 10px;
+}
+.ccc{
+  border-radius: 10px;
+  padding: 5px 10px;
+  color: #888;
+}
