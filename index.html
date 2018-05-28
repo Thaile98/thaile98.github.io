@@ -3,10 +3,34 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>HeLLO</title>
-	<link rel="stylesheet" href="">
+	<title>Todo List</title>
+	<link rel="stylesheet" href="css/style.css">
+	<!-- Latest compiled and minified CSS & JS -->
+	<script language="javascript" src="http://code.jquery.com/jquery-2.0.0.min.js"></script>
 </head>
 <body>
-	<h1>HELLO WORLD</h1>
+
+<div class="container">
+  <h2 style="text-align: center;padding: 20px 0">To Do List</h2>
+  <div id="myDIV" class="header">
+    <input type="text" id="myInput" placeholder="Nhập vào đeeeeeee...">
+    <span  class="addBtn">Thêm</span>
+  </div>
+
+  <ul id="myUL">
+
+  </ul>
+  <div class="choice">
+    <button type="button" id="all"  class="btn btn-default ccc att" >All</button>
+    <button type="button" id="active"  class="btn btn-default ccc">Active</button>
+    <button type="button" id="complete"  class="btn btn-default ccc">Complete</button>
+    <button type="button" id="clear"   class="btn btn-default ccc">Clear complete</button>
+    <button type="button" id="active-all" class="btn btn-default ccc">Active All</button>
+    <button type="button" id="remove-active" class="btn btn-default ccc">Remove Active</button>
+    <p id="count" style="color: red;font-size: 30px;"></p>
+  </div>
+</div>
+<script type="text/javascript" src="js/site.js"></script>
 </body>
-</html>
+
+</html> 
