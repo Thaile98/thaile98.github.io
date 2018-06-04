@@ -2,4 +2,6 @@
 
 
 HELLO WORLD
-# my cv
+# This is my first CV on Github :D
+
+## Thôi giờ tôi sẽ viết tiếng Việt cho dễ đọc dễ hiểu :))
