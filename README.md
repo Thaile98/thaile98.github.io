@@ -6,6 +6,7 @@ HELLO WORLD
 
 ## Thôi giờ tôi sẽ viết tiếng Việt cho dễ đọc dễ hiểu :))
 
-*Cái dòng chữ này sẽ được in nghiêng*
-
-
+Chủ đề | Nội dung
+------------ | -------------
+* Sở thích* | *đá bóng (mặc dù không hay đá lắm :)) ) , nghe nhạc, xem phim hành động...*
+**Môn học ưa thích** | **ngày xưa thích học vật lý lắm, giờ đỡ rồi**
