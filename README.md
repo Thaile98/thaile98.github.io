@@ -1,9 +1,3 @@
-# thaile98.github.io
-
-
-HELLO WORLD
-# This is my first CV on Github :D
-
-## Thôi giờ tôi sẽ viết tiếng Việt cho dễ đọc dễ hiểu :))
-* Sở thích : đá bóng (mặc dù không hay đá lắm :)) ) , nghe nhạc, xem phim hành động...*
-**Môn học ưa thích : ngày xưa thích học vật lý lắm, giờ đỡ rồi**
+#markdown-cv
+A curriculum vitae maintained in plain text and rendered to html and pdf using CSS.
+For more details see the [project page](http://elipapa.github.io/markdown-cv) or the blog post on[ why I switched to markdown for my CV](http://elipapa.github.io/blog/why-i-switched-to-markdown-for-my-cv.html).
