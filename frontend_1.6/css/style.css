@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0; }
+
+.content {
+  width: 60%;
+  height: 800px;
+  margin-left: 20%;
+  background: linear-gradient(to bottom left, #5f4cab, #d8566c, #db9f4b, #e2c586);
+  box-sizing: border-box;
+  padding-top: 50px; }
+
+.newfeed {
+  width: 50%;
+  height: 650px;
+  margin-left: 25%;
+  box-shadow: 7px 7px 5px rgba(0, 0, 0, 0.4); }
+
+.top {
+  width: 100%;
+  height: 12%;
+  background-color: #fff; }
+  .top .profile {
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding: 10px 0 0 20px; }
+  .top .menu {
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    height: 100%;
+    padding: 20px 20px 0 0; }
+    .top .menu ul li {
+      list-style-type: none; }
+      .top .menu ul li .follow {
+        text-decoration: none;
+        font-weight: bold;
+        border: 3px solid #5abcfc;
+        border-radius: 5px;
+        color: #5abcfc;
+        background-color: #fff;
+        padding: 5px 10px;
+        float: right; }
+      .top .menu ul li .menu-icon {
+        float: right;
+        margin-left: 20px;
+        padding-top: 2px; }
+
+.mid {
+  width: 100%;
+  height: 68%;
+  background: url("../image1/159256-OUIMC7-479.png") no-repeat center;
+  background-size: 40%;
+  background-color: #dfdede; }
+
+.bot {
+  width: 100%;
+  height: 20%;
+  background-color: #fff; }
+  .bot .bot-button {
+    box-sizing: border-box;
+    padding: 20px 10px 0 20px; }
+    .bot .bot-button ul li {
+      list-style-type: none;
+      display: inline-block;
+      margin-right: 10px; }
+      .bot .bot-button ul li a img {
+        width: 80%; }
+  .bot .bot-action {
+    box-sizing: border-box;
+    padding: 20px 10px 0 20px; }
+    .bot .bot-action ul li {
+      list-style-type: none;
+      display: inline-block;
+      margin-right: 5px; }
+  .bot .bot-foot {
+    box-sizing: border-box;
+    padding: 10px 10px 0 20px; }
+    .bot .bot-foot ul li {
+      list-style-type: none;
+      display: inline-block;
+      margin-right: 10px; }
+
+.logo {
+  text-align: center;
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 50px; }
