@@ -1,0 +1,350 @@
+@font-face {
+  font-family: SVN;
+  src:url('../fonts/SVN-Harabaras.ttf');
+  font-weight:normal;
+  font-style:normal;
+}
+body {
+  font-family: SVN !important;
+  letter-spacing: 1px;
+}
+a {
+  text-decoration: none;
+  color: #389cd7;
+}
+
+a:hover {
+  text-decoration: none !important;
+  color: #389cd7;
+}
+
+.btn-handle {
+  display: inline-block;
+  padding: 7px 20px;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-weight: 600;
+}
+
+.btn-blue {
+  background: #389cd7;
+  color: #fff;
+}
+
+.btn-green {
+  background: #2da24a;
+  color: #fff;
+}
+.btn-green:hover, .btn-blue:hover {
+  color: #fff;
+}
+
+.bdr-none {
+  border-radius: 0 !important;
+}
+
+.flex {
+  display: flex;
+}
+
+.img-circle {
+  border-radius: 50%;
+  border: 2px solid #fff;
+}
+
+.bg-blue {
+  background: #389cd7;
+}
+
+.fs-25 {
+  font-size: 25px;
+}
+
+.fs-18 {
+  font-size: 18px;
+}
+
+.fs-20 {
+  font-size: 20px;
+}
+
+.fs-35 {
+  font-size: 35px;
+}
+
+.fs-45 {
+  font-size: 45px;
+}
+
+.text-blue-dark {
+  color: #0b0146;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.text-blue {
+  color: #389cd7;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.border-dark {
+  border: 1px solid #000000;
+}
+
+.block {
+  padding: 70px 0;
+}
+
+.line {
+  background: #000000;
+  height: 2px;
+  width: 100px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.header__item {
+  flex: 0 0 1;
+}
+
+.header .logo {
+  width: 100px;
+}
+
+.header .header__menu a {
+  font-weight: 600;
+  padding: 0 15px;
+  display: inline-block;
+}
+
+.list-harm {
+  display: flex;
+  padding-top: 30px;
+}
+
+.list-harm__item {
+  flex: 0 0 25%;
+  padding: 0 30px;
+}
+
+.list-harm__item .item-content {
+  height: 100%;
+  text-align: center;
+}
+
+.list-harm__item .item-content__image {
+  padding: 20px 0;
+}
+
+.list-harm__item .item-content__image img {
+  width: 100px;
+  height: 100px;
+}
+
+.list-harm__item .item-content__text {
+  padding: 20px;
+}
+
+.list-harm__item .item-content__text span {
+  font-weight: 600;
+  color: #fff;
+}
+
+.banner3 {
+  position: relative;
+}
+
+.banner3 .banner-content {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  padding-top: 30px;
+}
+
+.banner3 .banner-content p {
+  margin: 0 !important;
+}
+
+.banner3 .banner-content iframe {
+  width: 40%;
+  height: 300px;
+}
+
+.doctor-intro__content {
+  font-weight: 600;
+}
+
+.doctor-intro__content .content-left {
+  flex: 0 0 35%;
+}
+
+.list-price {
+  padding-top: 70px;
+}
+
+.list-price__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: calc(100%/3);
+  position: relative;
+}
+
+.list-price__item .item-content {
+  margin-bottom: 40px;
+}
+
+.list-price__item .item-image {
+  padding: 10px 0;
+}
+
+.list-price__item .item-image img {
+  width: 100px;
+  height: 100px;
+  border-color: #000000 !important;
+}
+
+.list-price__item .item-method {
+  font-size: 20px;
+  width: 60%;
+  margin: 0 auto 10px;
+}
+
+.list-price__item .item-price {
+  position: relative;
+  font-size: 60px;
+  margin-bottom: 15px;
+}
+
+.list-price__item .item-price__sale {
+  position: absolute;
+  top: -5px;
+  right: 10%;
+}
+
+.list-price__item .item-desc {
+  text-align: justify;
+  width: 85%;
+  margin: 0 auto;
+}
+
+.list-price__item .item-special {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.list-price__item .item-special img {
+  width: 60px;
+}
+
+.list-price__item .item-button {
+  margin-bottom: 25px;
+}
+
+.list-review {
+  padding: 60px 0;
+  display: flex;
+}
+
+.list-review__item {
+  width: 25%;
+  padding: 0 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.list-review__item .review-image {
+  margin-bottom: 20px;
+}
+
+.list-review__item .review-image img {
+  width: 100px;
+  height: 100px;
+  border: none;
+}
+
+.list-review__item .review-name .line {
+  height: 1px;
+  width: 30px;
+}
+
+.time {
+  margin: 40px 0 70px;
+  background-image: url("../images/banner dong ho.jpg?07728ad9a8a87f84a7a0a419d98ff661");
+  background-size: cover;
+  height: 500px;
+  background-position: center center;
+}
+
+.time .count-time {
+  text-align: center;
+  width: 50%;
+  padding: 60px 0;
+}
+
+.time .count-time .count-time__title {
+  font-size: 65px;
+}
+
+.time .count-time .list-time {
+  display: flex;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.time .count-time .list-time__item {
+  flex: 0 0 15%;
+  text-align: center;
+  color: #fff;
+  font-weight: 600;
+}
+
+.time .count-time .list-time__item .item__count {
+  font-size: 50px;
+}
+
+.time .count-time .list-time__item .item__unit {
+  font-size: 16px;
+}
+
+.promise {
+  font-size: 15px;
+  padding: 5px 10px;
+  border-radius: 15px;
+  color: #fff;
+  font-weight: 600;
+  background: #e87f02;
+}
+
+.book-time {
+  padding-bottom: 70px;
+}
+
+.book-time .form-book-time input {
+  width: 240px;
+  padding: 6px 0;
+  color: #8580A2;
+  border: none !important;
+  outline: none;
+  border-bottom: 1px solid #8580A2 !important;
+}
+
+.book-time .form-book-time button {
+    cursor: pointer;
+}
+
